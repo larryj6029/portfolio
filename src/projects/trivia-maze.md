@@ -1,10 +1,10 @@
 ---
-title: Reddit Clone
+title: Trivia Maze
 stack: React / Nextjs / Express / Apollo / GraphQL
-slug: the-reddit-clone
-date: 2021-01-30T00:00:00+00:00
-thumb: ../images/thumbs/reddit.png
-featured: ../images/featured/reddit-banner.png
+slug: trivia-maze
+date: 2021-01-23T00:00:00+00:00
+thumb: ../images/thumbs/trivia.png
+featured: ../images/featured/trivia-banner.png
 repo: https://github.com/larryj6029
 live: https://lsannicolas.com
 ---

@@ -1,10 +1,10 @@
 ---
-title: Reddit Clone
+title: Ninjas VS Zombies
 stack: React / Nextjs / Express / Apollo / GraphQL
-slug: the-reddit-clone
-date: 2021-01-30T00:00:00+00:00
-thumb: ../images/thumbs/reddit.png
-featured: ../images/featured/reddit-banner.png
+slug: ninja-vs-zombies
+date: 2021-01-24T00:00:00+00:00
+thumb: ../images/thumbs/ninja.png
+featured: ../images/featured/ninja-banner.png
 repo: https://github.com/larryj6029
 live: https://lsannicolas.com
 ---

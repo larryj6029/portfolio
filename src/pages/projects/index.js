@@ -18,7 +18,7 @@ export default function Index({ data }) {
                         const image = getImage(project.frontmatter.thumb)
                         return <Link to={"/projects/" + project.frontmatter.slug} key={project.id} >
                             <div>
-                                <GatsbyImage image={image} alt={project.frontmatter.title + " image"} />
+                                <GatsbyImage width="2000px" image={image} alt={project.frontmatter.title + " image"} />
                                 <h3>{project.frontmatter.title}</h3>
                                 <p>{project.frontmatter.stack}</p>
                             </div>

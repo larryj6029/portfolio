@@ -1,10 +1,10 @@
 ---
-title: Reddit Clone
+title: Algorithm Visualizer
 stack: React / Nextjs / Express / Apollo / GraphQL
-slug: the-reddit-clone
-date: 2021-01-30T00:00:00+00:00
-thumb: ../images/thumbs/reddit.png
-featured: ../images/featured/reddit-banner.png
+slug: algorithm-visualizer
+date: 2021-01-00T00:00:00+00:00
+thumb: ../images/thumbs/visualizer.png
+featured: ../images/featured/visualizer-banner.png
 repo: https://github.com/larryj6029
 live: https://lsannicolas.com
 ---
