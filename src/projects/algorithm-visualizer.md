@@ -1,29 +1,26 @@
 ---
 title: Algorithm Visualizer
-stack: React / Nextjs / Express / Apollo / GraphQL
+stack: React
 slug: algorithm-visualizer
 date: 2021-01-00T00:00:00+00:00
 thumb: ../images/thumbs/visualizer.png
 featured: ../images/featured/visualizer-banner.png
 repo: https://github.com/larryj6029
-live: https://lsannicolas.com
+live: https://sorting-ljsn6029.herokuapp.com/
 ---
 
 ### What I Did
 
-Developed a full stack website where I:
+Developed a React website where I:
 
-- Used GraphQL to query the database.
-- Utilized Redis as a quick storage for user cookies for authentication.
-- Used Typegraphql to create a scalable entities and resolvers.
-- Improved initial home page load time by using pagination to reduce the number of posts being loaded.
-- Used Next.js to improve search engine optimization through server side rendering contentful pages.
+- Implemented the A\* Path Finding Algorithm.
+- Implemented a basic random maze generator.
+- Implemented the bubble, heap, and quick sort algorithms.
 
 ### What I Learned
 
 From this project, I learned:
 
-- How to paginate data using URQL.
-- How to use Apollo to integrate GraphQL.
-- How to work with GraphQL fragments to reduce redundancy.
-- How to build a scalable full stack website.
+- How to handle animating an algorithm.
+- How to work React State.
+- The benefits of different Data Structures and how they can help increase performance when a user starts an algorithm.

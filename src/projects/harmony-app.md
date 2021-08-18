@@ -1,29 +1,31 @@
 ---
 title: Harmony App
-stack: React / Nextjs / Express / Apollo / GraphQL
+stack: Java / Android Studio / Express / PostgreSQL
 slug: harmony-app
 date: 2021-01-25T00:00:00+00:00
 thumb: ../images/thumbs/harmony.png
 featured: ../images/featured/harmony-banner.png
-repo: https://github.com/larryj6029
-live: https://lsannicolas.com
+repo: https://github.com/Austinx75/Team-9-TCSS-450
+live:
 ---
 
 ### What I Did
 
-Developed a full stack website where I:
+Developed a full stack android app where I:
 
-- Used GraphQL to query the database.
-- Utilized Redis as a quick storage for user cookies for authentication.
-- Used Typegraphql to create a scalable entities and resolvers.
-- Improved initial home page load time by using pagination to reduce the number of posts being loaded.
-- Used Next.js to improve search engine optimization through server side rendering contentful pages.
+- Worked on a team of 5 to deliver a product to our client at the end of 4 two week sprints.
+- Implemented the chat funcitonality by creating the database tables, creating the backend, and designing the front end interface.
+- Redesigned the chat page interface upon client request.
+- Improved query performance by rewriting our to a single query instead of multiple.
+- Participated in daily scrum meetings to ensure project requirements were being met.
 
 ### What I Learned
 
 From this project, I learned:
 
-- How to paginate data using URQL.
-- How to use Apollo to integrate GraphQL.
-- How to work with GraphQL fragments to reduce redundancy.
-- How to build a scalable full stack website.
+- How to handle a missed deadline on a sprint.
+- How to discover bugs by diving into a problem and analyzing it in pair programming activities.
+- How to communicate requirements to peers and prioritize tasks.
+- How to work with a peer to connect frontend and backend code that were written at different times.
+- The importance of documentation and consistent naming conventions.
+- The importance of caution when editing delicate pieces of code.

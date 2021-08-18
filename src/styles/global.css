@@ -53,3 +53,14 @@ footer p {
   color: #bbb;
   margin: 40px auto;
 }
+
+nav Link h1 {
+  display: inline-block;
+  background-color: #558ed5;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 5px 10px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}

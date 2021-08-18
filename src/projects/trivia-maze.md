@@ -1,29 +1,29 @@
 ---
 title: Trivia Maze
-stack: React / Nextjs / Express / Apollo / GraphQL
+stack: Java / SQLite
 slug: trivia-maze
 date: 2021-01-23T00:00:00+00:00
 thumb: ../images/thumbs/trivia.png
 featured: ../images/featured/trivia-banner.png
-repo: https://github.com/larryj6029
-live: https://lsannicolas.com
+repo:
+live:
 ---
 
 ### What I Did
 
-Developed a full stack website where I:
+Developed a Java project where I:
 
-- Used GraphQL to query the database.
-- Utilized Redis as a quick storage for user cookies for authentication.
-- Used Typegraphql to create a scalable entities and resolvers.
-- Improved initial home page load time by using pagination to reduce the number of posts being loaded.
-- Used Next.js to improve search engine optimization through server side rendering contentful pages.
+- Worked in a group of 3 to design and develop a game.
+- Designed the "power ups" that the player could collect.
+- Implemented the movement system, bag, and item collection system.
+- Slowly Introduced Scrum and Agile methodologies as we learned them.
+- Wrote Java Unit Tests for about 95% code coverage.
 
 ### What I Learned
 
 From this project, I learned:
 
-- How to paginate data using URQL.
-- How to use Apollo to integrate GraphQL.
-- How to work with GraphQL fragments to reduce redundancy.
-- How to build a scalable full stack website.
+- How to connect to a database in Java.
+- How to write Unit tests.
+- Different Quality Assurance Techniques.
+- How important communication and Scrum meetings are in a software development.
