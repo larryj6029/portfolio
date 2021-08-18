@@ -1,0 +1,23 @@
+.about {
+  font-size: 1.2em;
+}
+
+.about h3 {
+  margin-left: 24px;
+}
+
+.about ul {
+  margin-left: 64px;
+}
+
+.about h2 {
+  margin-top: 32px;
+}
+
+.experience {
+  margin-bottom: 64px;
+}
+
+.experience p {
+  margin-left: 32px;
+}

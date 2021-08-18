@@ -25,3 +25,7 @@
   color: #ccc;
   margin-top: 4px;
 }
+
+.portfolio > p {
+  font-size: 24px;
+}

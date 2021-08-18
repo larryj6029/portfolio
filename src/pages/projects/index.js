@@ -25,7 +25,7 @@ export default function Index({ data }) {
                         </Link>
                     })}
                 </div>
-                <p>Interested in my work? Email me at contact {contact}!</p>
+                <p className="contact">Interested in my work? Email me at {contact}!</p>
             </div>
         </Layout >
     )
