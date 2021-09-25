@@ -1,14 +1,14 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
-import { container, about, experience } from '../styles/about.module.css'
+import { about, experience } from '../styles/about.module.css'
 import { portfolio } from '../styles/projects.module.css'
 
 export default function About({ data }) {
     const contact = data.contact.siteMetadata.contact
     return (
         <Layout>
-            <div className={container}>
+            <div>
                 <div className={about}>
                     <h1>About page</h1>
 
