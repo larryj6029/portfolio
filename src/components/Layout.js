@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet'
 export default function Layout(props) {
     return (
         <>
-            <Helmet title="Portfolio" defer={false} meta={[
+            <Helmet title="Portfolio" htmlAttributes={{ lang: 'en' }} defer={false} meta={[
                 {
                     name: 'description',
                     content: "This is a portfolio of projects completed by Lawrence San Nicolas.",
