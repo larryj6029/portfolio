@@ -1,5 +1,8 @@
 .about {
   font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5%;
+  padding: 24px;
 }
 
 .about h3 {
