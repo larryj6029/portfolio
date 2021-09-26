@@ -33,6 +33,8 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
+
+  height: 48px;
 }
 nav .links {
   display: inline-block;
@@ -44,6 +46,8 @@ nav a {
   font-weight: 400;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
+  font-size: 1.3em;
+  padding: 10px;
 }
 nav a:hover {
   border-color: white;
@@ -60,7 +64,7 @@ nav Link h1 {
   background-color: #558ed5;
   color: #fff;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 48px;
   padding: 5px 10px 5px 10px;
   margin-left: auto;
   margin-right: auto;
