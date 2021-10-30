@@ -5,7 +5,7 @@ import { useState } from 'react'
 import DropDown from './DropDown';
 
 export default function Navbar() {
-    const { _, width } = useWindowDimensions();
+    const { height, width } = useWindowDimensions();
 
     return (
         <nav>

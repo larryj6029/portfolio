@@ -10,7 +10,7 @@
   border-bottom: 3px solid transparent;
   margin-bottom: 20px;
   display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 
 .details h3 {
@@ -41,4 +41,47 @@
 
 .featured {
   margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .details {
+    font-size: 0.6em;
+  }
+  .details h2 {
+    font-size: 3.5em;
+    border-bottom: 3px solid transparent;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .details h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .details a {
+    margin-right: 8px;
+  }
+
+  .details h2:hover {
+    border-color: white;
+  }
+
+  .html {
+    margin-top: 40px;
+    font-size: 1.2em;
+  }
+  .html h3 {
+    margin-top: 40px;
+  }
+
+  .html ul {
+    margin-left: 50px;
+  }
+
+  .featured {
+    margin-bottom: 40px;
+  }
 }

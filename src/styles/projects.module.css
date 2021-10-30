@@ -24,10 +24,12 @@
 .projects p {
   color: #ccc;
   margin-top: 4px;
+  text-align: center;
 }
 
 .portfolio > p {
   font-size: 24px;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -58,9 +60,11 @@
   .projects p {
     color: #ccc;
     margin-top: 4px;
+    text-align: center;
   }
 
   .portfolio > p {
     font-size: 0.8rem;
+    text-align: center;
   }
 }
