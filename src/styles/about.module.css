@@ -24,3 +24,32 @@
 .experience p {
   margin-left: 32px;
 }
+
+@media (max-width: 767px) {
+  .about {
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+    padding: 24px;
+  }
+
+  .about h3 {
+    margin-left: 24px;
+  }
+
+  .about ul {
+    margin-left: 64px;
+  }
+
+  .about h2 {
+    margin-top: 32px;
+  }
+
+  .experience {
+    margin-bottom: 64px;
+  }
+
+  .experience p {
+    margin-left: 32px;
+  }
+} ;

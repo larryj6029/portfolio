@@ -19,6 +19,13 @@ body {
   );
   background-repeat: no-repeat;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
 p {
   margin: 16px auto;
   line-height: 1.5em;
@@ -33,21 +40,35 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
-
   height: 48px;
 }
 nav .links {
   display: inline-block;
   text-align: right;
+  /* padding-right: 10px; */
+}
+nav .links Link {
+  padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+  nav .links {
+    display: inline-flex;
+    text-align: right;
+    margin-top: 12px;
+    padding-right: 0px;
+  }
 }
 nav a {
   display: inline-block;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-weight: 400;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
   font-size: 1.3em;
+  vertical-align: middle;
   padding: 10px;
+  /* padding-right: 0px; */
 }
 nav a:hover {
   border-color: white;

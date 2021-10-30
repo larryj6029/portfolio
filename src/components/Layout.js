@@ -16,7 +16,7 @@ export default function Layout(props) {
                     content: "Software, portfolio, web development, react",
                 },
             ]} />
-            <div className="layout">
+            <div className="layout container">
                 <Navbar />
                 <div className="content">
                     {props.children}

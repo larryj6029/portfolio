@@ -51,7 +51,7 @@ export default function About({ data }) {
                         </div>
                     </div>
                     <div className={portfolio}>
-                        <p className="contact">Find my experience interesting? Email me at {contact}!</p>
+                        <p className="contact" >Email me at {contact}!</p>
                     </div>
                 </div>
             </div>
