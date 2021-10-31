@@ -10,11 +10,7 @@ import useWindowDimensions from '../utils/window';
 export default function Home({ data }) {
   const image = getImage(data.file)
   const { height, width } = useWindowDimensions();
-  if (width < 500) {
-    // make small sizes 
-  } else {
-    // make normal sizes  
-  }
+  console.log(width)
   return (
     <Layout>
       <section className={header}>
