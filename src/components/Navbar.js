@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function Navbar() {
     let width = 0
 
-    if (typeof window !== undefined) {
+    if (typeof window !== "undefined") {
         width = window.innerWidth;
     }
     return (

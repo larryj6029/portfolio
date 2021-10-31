@@ -15,7 +15,8 @@ export default function ProjectDetails({ data }) {
   const liveSite = <h2>{live ? <a href={live}>{title}</a> : title}</h2>
 
   const gitRepo = repo ? <a href={repo} aria-label="Github Repo" style={{ "paddingTop": "4px" }}> <GoMarkGithub size="4em" /></a> : null
-  const width = 500
+
+
   return (
     <Layout>
       <div className={details}>
