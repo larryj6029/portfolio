@@ -5,10 +5,8 @@ import { details, featured, html } from '../styles/project-details.module.css'
 import { graphql } from 'gatsby';
 import { GoMarkGithub } from 'react-icons/go'
 import { IoMdArrowBack } from 'react-icons/io'
-import useWindowDimensions from '../utils/window';
 
 export default function ProjectDetails({ data }) {
-  const { height, width } = useWindowDimensions();
   const htmlData = data.markdownRemark.html
   const { title, stack, live, repo } = data.markdownRemark.frontmatter
   const featuredImage = data.markdownRemark.frontmatter.featured
@@ -17,7 +15,7 @@ export default function ProjectDetails({ data }) {
   const liveSite = <h2>{live ? <a href={live}>{title}</a> : title}</h2>
 
   const gitRepo = repo ? <a href={repo} aria-label="Github Repo" style={{ "paddingTop": "4px" }}> <GoMarkGithub size="4em" /></a> : null
-
+  const width = 500
   return (
     <Layout>
       <div className={details}>
@@ -27,8 +25,7 @@ export default function ProjectDetails({ data }) {
           </a>
         </div>
         {liveSite}
-        {width < 767 ? <div>{gitRepo}</div> : gitRepo
-        }
+        <div className="git">{gitRepo}</div>
         <h3>{stack}</h3>
         <div className={featured}>
           <GatsbyImage image={image} alt={title + " image"} />

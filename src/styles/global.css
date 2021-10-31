@@ -52,11 +52,28 @@ nav .links Link {
 }
 
 @media (max-width: 767px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+    height: 48px;
+  }
   nav .links {
     display: inline-flex;
     text-align: right;
-    margin-top: 12px;
+    margin-top: 8px;
+  }
+  nav .link {
     padding-right: 0px;
+  }
+
+  nav .first {
+    display: none;
+  }
+
+  nav .title {
+    padding-left: 0;
+    font-size: 1.2rem;
   }
 }
 nav a {
