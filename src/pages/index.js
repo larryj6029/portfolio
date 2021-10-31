@@ -10,7 +10,6 @@ import useWindowDimensions from '../utils/window';
 export default function Home({ data }) {
   const image = getImage(data.file)
   const { height, width } = useWindowDimensions();
-  console.log(width)
   if (width < 500) {
     // make small sizes 
   } else {
