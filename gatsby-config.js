@@ -31,6 +31,6 @@ module.exports = {
     title: "Lawrence San Nicolas",
     description: "software engineer portfolio",
     copyright: "This website is copyright 2021 Lawrence San Nicolas",
-    contact: "larryjsannicolas@gmail.com"
+    contact: "dev.lawrencesan@gmail.com"
   }
 }
